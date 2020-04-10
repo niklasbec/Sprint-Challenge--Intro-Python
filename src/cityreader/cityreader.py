@@ -85,6 +85,7 @@ def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
   lowerY = 1
   higherY = 1
 
+
   if lat1 > lat2:
     lowerX = lat2
     higherX = lat1
